@@ -2,6 +2,15 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+# [0.2.0](https://github.com/andresmgsl/platform/compare/bulldozer-programs-0.1.0...bulldozer-programs-0.2.0) (2021-12-17)
+
+
+### Features
+
+* **programs:** testing the minor change ([49b6c33](https://github.com/andresmgsl/platform/commit/49b6c33727483254493701599dbacf6f0e426c68))
+
+
+
 # 0.1.0 (2021-12-17)
 
 
