@@ -7,8 +7,8 @@ import { PROGRAM_CONFIGS } from '@heavy-duty/ng-anchor';
 import {
   getPhantomWallet,
   getSlopeWallet,
-  getSolflareWallet,
   getSolletWallet,
+  getSolflareWallet,
 } from '@solana/wallet-adapter-wallets';
 
 import * as bulldozerIdl from '../assets/json/bulldozer.json';

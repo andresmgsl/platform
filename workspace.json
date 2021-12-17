@@ -23,6 +23,9 @@
               "libs/bulldozer/application/data-access/src/**/*.html"
             ]
           }
+        },
+        "version": {
+          "executor": "@jscutlery/semver:version"
         }
       },
       "tags": []
@@ -51,6 +54,9 @@
               "libs/bulldozer/application/features/code-editor/src/**/*.html"
             ]
           }
+        },
+        "version": {
+          "executor": "@jscutlery/semver:version"
         }
       },
       "tags": []
@@ -79,6 +85,9 @@
               "libs/bulldozer/application/features/edit-application/src/**/*.html"
             ]
           }
+        },
+        "version": {
+          "executor": "@jscutlery/semver:version"
         }
       },
       "tags": []
@@ -107,6 +116,9 @@
               "libs/bulldozer/application/features/edit-argument/src/**/*.html"
             ]
           }
+        },
+        "version": {
+          "executor": "@jscutlery/semver:version"
         }
       },
       "tags": []
@@ -135,6 +147,9 @@
               "libs/bulldozer/application/features/edit-attribute/src/**/*.html"
             ]
           }
+        },
+        "version": {
+          "executor": "@jscutlery/semver:version"
         }
       },
       "tags": []
@@ -163,6 +178,9 @@
               "libs/bulldozer/application/features/edit-collection/src/**/*.html"
             ]
           }
+        },
+        "version": {
+          "executor": "@jscutlery/semver:version"
         }
       },
       "tags": []
@@ -191,6 +209,9 @@
               "libs/bulldozer/application/features/edit-document/src/**/*.html"
             ]
           }
+        },
+        "version": {
+          "executor": "@jscutlery/semver:version"
         }
       },
       "tags": []
@@ -219,6 +240,9 @@
               "libs/bulldozer/application/features/edit-instruction/src/**/*.html"
             ]
           }
+        },
+        "version": {
+          "executor": "@jscutlery/semver:version"
         }
       },
       "tags": []
@@ -247,6 +271,9 @@
               "libs/bulldozer/application/features/edit-relation/src/**/*.html"
             ]
           }
+        },
+        "version": {
+          "executor": "@jscutlery/semver:version"
         }
       },
       "tags": []
@@ -275,6 +302,9 @@
               "libs/bulldozer/application/features/edit-signer/src/**/*.html"
             ]
           }
+        },
+        "version": {
+          "executor": "@jscutlery/semver:version"
         }
       },
       "tags": []
@@ -303,6 +333,9 @@
               "libs/bulldozer/application/features/navigation/src/**/*.html"
             ]
           }
+        },
+        "version": {
+          "executor": "@jscutlery/semver:version"
         }
       },
       "tags": []
@@ -331,6 +364,9 @@
               "libs/bulldozer/application/features/view-application/src/**/*.html"
             ]
           }
+        },
+        "version": {
+          "executor": "@jscutlery/semver:version"
         }
       },
       "tags": []
@@ -359,6 +395,9 @@
               "libs/bulldozer/application/features/view-collection/src/**/*.html"
             ]
           }
+        },
+        "version": {
+          "executor": "@jscutlery/semver:version"
         }
       },
       "tags": []
@@ -387,6 +426,9 @@
               "libs/bulldozer/application/features/view-instruction/src/**/*.html"
             ]
           }
+        },
+        "version": {
+          "executor": "@jscutlery/semver:version"
         }
       },
       "tags": []
@@ -413,6 +455,9 @@
               "libs/bulldozer/application/shell/src/**/*.html"
             ]
           }
+        },
+        "version": {
+          "executor": "@jscutlery/semver:version"
         }
       },
       "tags": []
@@ -441,6 +486,9 @@
               "libs/bulldozer/application/ui/components/dark-theme/src/**/*.html"
             ]
           }
+        },
+        "version": {
+          "executor": "@jscutlery/semver:version"
         }
       },
       "tags": []
@@ -469,6 +517,9 @@
               "libs/bulldozer/application/ui/directives/dark-theme/src/**/*.html"
             ]
           }
+        },
+        "version": {
+          "executor": "@jscutlery/semver:version"
         }
       },
       "tags": []
@@ -497,6 +548,9 @@
               "libs/bulldozer/application/ui/directives/page-header/src/**/*.html"
             ]
           }
+        },
+        "version": {
+          "executor": "@jscutlery/semver:version"
         }
       },
       "tags": []
@@ -525,6 +579,9 @@
               "libs/bulldozer/application/ui/directives/section-header/src/**/*.html"
             ]
           }
+        },
+        "version": {
+          "executor": "@jscutlery/semver:version"
         }
       },
       "tags": []
@@ -553,6 +610,9 @@
               "libs/bulldozer/application/utils/pipes/obscure-address/src/**/*.html"
             ]
           }
+        },
+        "version": {
+          "executor": "@jscutlery/semver:version"
         }
       },
       "tags": []
@@ -581,6 +641,9 @@
               "libs/bulldozer/application/utils/pipes/sanitize-url/src/**/*.html"
             ]
           }
+        },
+        "version": {
+          "executor": "@jscutlery/semver:version"
         }
       },
       "tags": []
@@ -609,6 +672,9 @@
               "libs/bulldozer/application/utils/services/active-breakpoint/src/**/*.html"
             ]
           }
+        },
+        "version": {
+          "executor": "@jscutlery/semver:version"
         }
       },
       "tags": []
@@ -636,6 +702,9 @@
             "jestConfig": "libs/bulldozer/application/utils/services/code-generator/jest.config.js",
             "passWithNoTests": true
           }
+        },
+        "version": {
+          "executor": "@jscutlery/semver:version"
         }
       },
       "tags": []
@@ -664,6 +733,9 @@
               "libs/bulldozer/application/utils/services/dark-theme/src/**/*.html"
             ]
           }
+        },
+        "version": {
+          "executor": "@jscutlery/semver:version"
         }
       },
       "tags": []
@@ -689,6 +761,9 @@
             "jestConfig": "libs/bulldozer/application/utils/types/jest.config.js",
             "passWithNoTests": true
           }
+        },
+        "version": {
+          "executor": "@jscutlery/semver:version"
         }
       },
       "tags": []
@@ -797,6 +872,9 @@
             "jestConfig": "apps/bulldozer-client/jest.config.js",
             "passWithNoTests": true
           }
+        },
+        "version": {
+          "executor": "@jscutlery/semver:version"
         }
       },
       "tags": []
@@ -825,6 +903,9 @@
           "options": {
             "lintFilePatterns": ["apps/bulldozer-client-e2e/**/*.{js,ts}"]
           }
+        },
+        "version": {
+          "executor": "@jscutlery/semver:version"
         }
       },
       "tags": [],
@@ -852,6 +933,9 @@
               "libs/bulldozer/data-access/src/**/*.html"
             ]
           }
+        },
+        "version": {
+          "executor": "@jscutlery/semver:version"
         }
       },
       "tags": []
@@ -880,6 +964,9 @@
             "projectPath": "apps/bulldozer-programs",
             "monitor": true
           }
+        },
+        "version": {
+          "executor": "@jscutlery/semver:version"
         }
       },
       "tags": []
@@ -906,6 +993,9 @@
               "libs/bulldozer/shell/src/**/*.html"
             ]
           }
+        },
+        "version": {
+          "executor": "@jscutlery/semver:version"
         }
       },
       "tags": []
@@ -948,6 +1038,9 @@
               "libs/shared/ng-anchor/src/**/*.html"
             ]
           }
+        },
+        "version": {
+          "executor": "@jscutlery/semver:version"
         }
       },
       "tags": []
@@ -971,6 +1064,9 @@
             "jestConfig": "libs/shared/utils/operators/jest.config.js",
             "passWithNoTests": true
           }
+        },
+        "version": {
+          "executor": "@jscutlery/semver:version"
         }
       },
       "tags": []
@@ -1013,6 +1109,9 @@
               "libs/shared/wallet-adapter/src/**/*.html"
             ]
           }
+        },
+        "version": {
+          "executor": "@jscutlery/semver:version"
         }
       },
       "tags": []
@@ -1055,6 +1154,9 @@
               "libs/shared/wallet-adapter-ui/src/**/*.html"
             ]
           }
+        },
+        "version": {
+          "executor": "@jscutlery/semver:version"
         }
       },
       "tags": []
