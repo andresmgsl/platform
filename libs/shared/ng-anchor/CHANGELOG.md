@@ -2,6 +2,15 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.1.1](https://github.com/andresmgsl/platform/compare/shared-ng-anchor-0.1.0...shared-ng-anchor-0.1.1) (2021-12-17)
+
+
+### Bug Fixes
+
+* **ng-anchor:** another test ([8d8edff](https://github.com/andresmgsl/platform/commit/8d8edff5203508f5efdfed419870eb36333e591c))
+
+
+
 # 0.1.0 (2021-12-17)
 
 
