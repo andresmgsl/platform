@@ -7,7 +7,8 @@
     "build": "nx build",
     "test": "nx test",
     "postinstall": "ngcc --properties es2015 browser module main",
-    "format": "nx format:write"
+    "format": "nx format:write",
+    "prepare": "husky install"
   },
   "private": true,
   "dependencies": {
@@ -46,8 +47,10 @@
     "@angular/compiler-cli": "13.0.1",
     "@angular/language-service": "13.0.1",
     "@commitlint/cli": "^13.2.1",
+    "@commitlint/config-angular": "^15.0.0",
     "@commitlint/config-conventional": "^13.2.0",
     "@danmt/nx-anchor": "0.0.6",
+    "@jscutlery/semver": "^2.15.0",
     "@ngneat/tailwind": "^7.0.3",
     "@nrwl/cli": "13.2.0-rc.1",
     "@nrwl/cypress": "13.2.0-rc.1",
