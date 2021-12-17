@@ -1,5 +1,4 @@
 import { PublicKey, Transaction } from '@solana/web3.js';
-
 import { Wallet } from './types';
 
 export class DummyWallet implements Wallet {
