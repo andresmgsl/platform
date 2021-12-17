@@ -1,18 +1,8 @@
 name: Bulldozer Platform ci
-
-on:
-  push:
-    branches:
-      - master
-  pull_request:
-    branches:
-      - master
-
+on: pull_request
 jobs:
   ci:
     runs-on: ubuntu-20.04
-    env:
-      BEFORE_SHA: ${{ github.event.before }}
     steps:
       - id: config-repo
         name: Pre config - 🧰 Checkout repo
@@ -27,9 +17,9 @@ jobs:
           node-version: '14.17.5' # we have to check this
 
       - id: install-npm-packages
-        name: 📦 Pulling repo and installing Bulldozer Platform npm packages
+        name: 📦 Git fetch for affected commands and installing npm packages
         run: |
-          git fetch --prune origin master
+          git fetch --no-tags --prune --depth=2 origin master
           npm ci
 
       - id: get-affected-projects
@@ -39,7 +29,7 @@ jobs:
         # then using grep, we count (using the -c flag) the occurrences of 'bulldozer-program' string in the above result
         # if we get 0, it means the bulldozer-program does not changed, otherwise it changed and we will install Anchor
         run: |
-          echo "::set-output name=bulldozer-program-affected::$(echo $(npx nx print-affected --select=projects --base=$BEFORE_SHA) | grep -c "bulldozer-programs")"
+          echo "::set-output name=bulldozer-program-affected::$(echo $(npx nx print-affected --select=projects --base=origin/master) | grep -c "bulldozer-programs")"
 
       - id: install-anchor
         name: 🛠️ Setting up Anchor, Rust, Solana and others related dependencies
@@ -65,14 +55,20 @@ jobs:
           npm install -g mocha
           npm install -g ts-mocha
 
+      - id: linting-projects
+        name: 🔦 Linting Bulldozer Platform projects
+        run: |
+          export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
+          npx nx affected --target=build --base=origin/master
+
+      - id: testing-projects
+        name: 🧪 Testing Bulldozer Platform projects
+        run: |
+          export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
+          npx nx affected --target=test --base=origin/master
+
       - id: building-projects
         name: 🏗️ Building Bulldozer Platform projects
         run: |
           export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
-          npx nx affected --target=build --base=$BEFORE_SHA
-
-      - id: testing-projects
-        name: 🧪 Running Bulldozer Platform projects tests
-        run: |
-          export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
-          npx nx affected --target=test --base=$BEFORE_SHA
+          npx nx affected --target=build --base=origin/master
