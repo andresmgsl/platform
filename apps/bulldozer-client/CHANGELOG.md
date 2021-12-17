@@ -2,6 +2,15 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.1.1](https://github.com/andresmgsl/platform/compare/bulldozer-client-0.1.0...bulldozer-client-0.1.1) (2021-12-17)
+
+
+### Bug Fixes
+
+* **web-client:** testing de semver ([51f7924](https://github.com/andresmgsl/platform/commit/51f7924c7e1b2c7f445f8abc8817c3932df459e3))
+
+
+
 # 0.1.0 (2021-12-17)
 
 
