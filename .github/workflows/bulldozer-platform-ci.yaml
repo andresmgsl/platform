@@ -19,8 +19,8 @@ jobs:
       - id: install-npm-packages
         name: 📦 Git fetch for affected commands and installing npm packages
         run: |
-          git fetch --no-tags --prune --depth=2 origin master
-          npm ci
+          git fetch --no-tags --prune
+          npm i
 
       - id: get-affected-projects
         name: 🛠️ Getting affected projects
