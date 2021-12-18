@@ -65,7 +65,7 @@ jobs:
         name: 🧪 Testing Bulldozer Platform projects
         run: |
           export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
-          npx nx affected --target=test --base=origin/master
+          nx test bulldozer-programs
 
       - id: building-projects
         name: 🏗️ Building Bulldozer Platform projects
