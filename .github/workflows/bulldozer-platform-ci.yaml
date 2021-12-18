@@ -20,7 +20,7 @@ jobs:
         name: 📦 Git fetch for affected commands and installing npm packages
         run: |
           git fetch --no-tags --prune --depth=2 origin master
-          npm i
+          npm ci
 
       - id: get-affected-projects
         name: 🛠️ Getting affected projects
@@ -65,7 +65,7 @@ jobs:
         name: 🧪 Testing Bulldozer Platform projects
         run: |
           export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
-          nx test bulldozer-programs
+          npx nx affected --target=test --base=origin/master
 
       - id: building-projects
         name: 🏗️ Building Bulldozer Platform projects
