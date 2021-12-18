@@ -20,6 +20,8 @@ jobs:
         name: 📦 Git fetch for affected commands and installing npm packages
         run: |
           git fetch --no-tags --prune
+          node -v
+          npm -v
           npm i
 
       - id: get-affected-projects
