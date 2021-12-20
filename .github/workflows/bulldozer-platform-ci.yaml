@@ -20,7 +20,7 @@ jobs:
         name: 📦 Git fetch for affected commands and installing npm packages
         run: |
           git fetch --no-tags --prune --depth=2 origin master
-          npm ci
+          npm i
 
       - id: get-affected-projects
         name: 🛠️ Getting affected projects
