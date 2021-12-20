@@ -143,6 +143,8 @@ describe('collection attribute', () => {
         },
         signers: [attribute],
       });
+
+      console.log('THIS SHOULD NOT BE SEEN ');
     } catch (err) {
       console.log('ERRORRRRRRR SHOULD HAPPEENDDDDDDDDDD !!!!!!!!!!!!!!!!!!!! ');
       console.log('error', err);
