@@ -4,7 +4,7 @@ on: pull_request
 env:
   SOLANA_VERSION: 1.9.1
   ANCHOR_VERSION: 0.19.0
-  NODE_VERSION: 17.0.1
+  NODE_VERSION: 14.7.5
 
 jobs:
   ci:
@@ -53,8 +53,8 @@ jobs:
           solana-keygen new -o $HOME/.config/solana/id.json
 
           echo "Installing Serum >> "
-          npm i -g @project-serum/anchor@${{ env.ANCHOR_VERSION }} 
-          npm i -g @project-serum/anchor-cli@${{ env.ANCHOR_VERSION }}
+          npm i -g @project-serum/anchor@${{ env.NODE_VERSION }} 
+          npm i -g @project-serum/anchor-cli@${{ env.NODE_VERSION }}
 
           echo "Installing others dependencies >>"
           npm i -g typescript
