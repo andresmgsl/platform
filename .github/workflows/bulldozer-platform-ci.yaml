@@ -53,8 +53,8 @@ jobs:
           solana-keygen new -o $HOME/.config/solana/id.json
 
           echo "Installing Serum >> "
-          npm i -g @project-serum/anchor@${{ env.NODE_VERSION }} 
-          npm i -g @project-serum/anchor-cli@${{ env.NODE_VERSION }}
+          npm i -g @project-serum/anchor@${{ env.ANCHOR_VERSION }} 
+          npm i -g @project-serum/anchor-cli@${{ env.ANCHOR_VERSION }}
 
           echo "Installing others dependencies >>"
           npm i -g typescript
