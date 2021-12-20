@@ -58,6 +58,8 @@ jobs:
           npm install -g mocha
           npm install -g ts-mocha
 
+          anchor --version
+
       - id: linting-projects
         name: 🔦 Linting Bulldozer Platform projects
         run: |
