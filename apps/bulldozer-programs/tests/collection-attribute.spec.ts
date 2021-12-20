@@ -144,6 +144,8 @@ describe('collection attribute', () => {
         signers: [attribute],
       });
     } catch (err) {
+      console.log('ERRORRRRRRR SHOULD HAPPEENDDDDDDDDDD !!!!!!!!!!!!!!!!!!!! ');
+      console.log('error', err);
       error = err;
     }
     // assert
