@@ -19,10 +19,8 @@ jobs:
       - id: install-npm-packages
         name: 📦 Git fetch for affected commands and installing npm packages
         run: |
-          git fetch --no-tags --prune
-          node -v
-          npm -v
-          npm i
+          git fetch --no-tags --prune --depth=2 origin master
+          npm ci
 
       - id: get-affected-projects
         name: 🛠️ Getting affected projects
@@ -49,15 +47,13 @@ jobs:
           solana-keygen new -o $HOME/.config/solana/id.json
 
           echo "Installing Serum >> "
-          npm i -g @project-serum/anchor 
-          npm i -g @project-serum/anchor-cli
+          npm i -g @project-serum/anchor@0.18.2 
+          npm i -g @project-serum/anchor-cli@0.18.2
 
           echo "Installing others dependencies >>"
           npm i -g typescript
           npm install -g mocha
           npm install -g ts-mocha
-
-          anchor --version
 
       - id: linting-projects
         name: 🔦 Linting Bulldozer Platform projects
