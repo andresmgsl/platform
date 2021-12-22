@@ -36,6 +36,9 @@
           "libs/shared/ng-anchor/src/**/*.html"
         ]
       }
+    },
+    "version": {
+      "executor": "@jscutlery/semver:version"
     }
   },
   "tags": []

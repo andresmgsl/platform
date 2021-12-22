@@ -22,6 +22,9 @@
         "projectPath": "apps/bulldozer-programs",
         "monitor": true
       }
+    },
+    "version": {
+      "executor": "@jscutlery/semver:version"
     }
   },
   "tags": []

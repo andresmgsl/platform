@@ -102,6 +102,9 @@
         "jestConfig": "apps/bulldozer-client/jest.config.js",
         "passWithNoTests": true
       }
+    },
+    "version": {
+      "executor": "@jscutlery/semver:version"
     }
   },
   "tags": []

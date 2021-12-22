@@ -36,6 +36,9 @@
           "libs/shared/wallet-adapter-ui/src/**/*.html"
         ]
       }
+    },
+    "version": {
+      "executor": "@jscutlery/semver:version"
     }
   },
   "tags": []
