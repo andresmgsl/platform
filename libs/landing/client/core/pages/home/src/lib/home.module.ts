@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { HomeComponent } from './home/home.component';
+import { HomeComponent } from './home.component';
 
 @NgModule({
 	imports: [
@@ -12,4 +12,4 @@ import { HomeComponent } from './home/home.component';
 	],
 	declarations: [HomeComponent],
 })
-export class HomeModule {}
+export class LandingHomeModule {}

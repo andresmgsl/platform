@@ -1,7 +1,28 @@
 @import './core/fonts.scss';
 
+.bp-bg-street-under-one {
+	background-image: url(../assets/images/terms-conditions/background-opacity.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position-y: bottom;
+	background-size: cover;
+}
+
 .bp-min-h-content {
 	min-height: calc(100vh - 116px - 111px);
+}
+
+.bp-conditions-text > p {
+	margin-bottom: 20px;
+}
+
+.bp-conditions-text > ul {
+	list-style-type: circle;
+	margin-bottom: 20px;
+}
+
+.bp-conditions-text > ul li {
+	margin-left: 30px;
 }
 
 @media (min-width: 640px) {
