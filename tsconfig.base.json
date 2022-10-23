@@ -294,6 +294,9 @@
 				"libs/landing/client/core/components/heavy-duty-landing-navbar/src/index.ts"
 			],
 			"@heavy-duty-landing/shell": ["libs/landing/client/shell/src/index.ts"],
+			"@heavy-duty-landing/core-pages-terms-conditions": [
+				"libs/landing/client/core/pages/terms-conditions/src/index.ts"
+			],
 			"@heavy-duty/blueprint-button": ["libs/blueprint/button/src/index.ts"],
 			"@heavy-duty/blueprint-card": ["libs/blueprint/card/src/index.ts"],
 			"@heavy-duty/blueprint-menu": ["libs/blueprint/menu/src/index.ts"],
