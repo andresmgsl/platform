@@ -8,8 +8,20 @@
 	font-display: swap;
 }
 
+@font-face {
+	font-family: 'Charger Vector';
+	src: local('../../assets/fonts/Charge-Vector-Black.otf'),
+		local('../../assets/fonts/Charge-Vector-Black.otf'),
+		url(../../assets/fonts/Charge-Vector-Black.otf) format('opentype');
+	font-display: swap;
+}
+
 .bp-graffiti-font {
 	font-family: 'Heaters' !important;
+}
+
+.bp-heavy-duty {
+	font-family: 'Charger Vector' !important;
 }
 
 .bp-landing-font {
