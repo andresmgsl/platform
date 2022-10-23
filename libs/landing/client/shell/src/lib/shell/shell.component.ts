@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
 	template: `
 		<div
 			id="main-content"
-			class="p-6 bp-landing-font w-screen h-screen relative bg-[#121212]"
+			class="bp-landing-font min-w-screen min-h-screen bg-[#121212] flex flex-col"
 		>
 			<router-outlet></router-outlet>
 		</div>
