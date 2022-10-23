@@ -1,0 +1,25 @@
+{
+	"projectType": "library",
+	"sourceRoot": "libs/landing/client/shell/src",
+	"prefix": "heavy-duty",
+	"targets": {
+		"test": {
+			"executor": "@nrwl/jest:jest",
+			"outputs": ["coverage/libs/landing/client/shell"],
+			"options": {
+				"jestConfig": "libs/landing/client/shell/jest.config.ts",
+				"passWithNoTests": true
+			}
+		},
+		"lint": {
+			"executor": "@nrwl/linter:eslint",
+			"options": {
+				"lintFilePatterns": [
+					"libs/landing/client/shell/**/*.ts",
+					"libs/landing/client/shell/**/*.html"
+				]
+			}
+		}
+	},
+	"tags": []
+}
