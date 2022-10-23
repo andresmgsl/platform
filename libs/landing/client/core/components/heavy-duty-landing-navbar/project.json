@@ -1,0 +1,27 @@
+{
+	"projectType": "library",
+	"sourceRoot": "libs/landing/client/core/components/heavy-duty-landing-navbar/src",
+	"prefix": "heavy-duty",
+	"targets": {
+		"test": {
+			"executor": "@nrwl/jest:jest",
+			"outputs": [
+				"coverage/libs/landing/client/core/components/heavy-duty-landing-navbar"
+			],
+			"options": {
+				"jestConfig": "libs/landing/client/core/components/heavy-duty-landing-navbar/jest.config.ts",
+				"passWithNoTests": true
+			}
+		},
+		"lint": {
+			"executor": "@nrwl/linter:eslint",
+			"options": {
+				"lintFilePatterns": [
+					"libs/landing/client/core/components/heavy-duty-landing-navbar/**/*.ts",
+					"libs/landing/client/core/components/heavy-duty-landing-navbar/**/*.html"
+				]
+			}
+		}
+	},
+	"tags": []
+}

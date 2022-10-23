@@ -1,10 +1,7 @@
-import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
 	selector: 'heavy-duty-landing-navbar',
-	standalone: true,
-	imports: [CommonModule],
 	template: ` <header
 		class="w-full flex justify-between text-[#e6e6e6] py-6 px-4 sm:px-6 bg-black"
 	>
