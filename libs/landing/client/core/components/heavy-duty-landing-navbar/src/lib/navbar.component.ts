@@ -5,14 +5,16 @@ import { Component } from '@angular/core';
 	template: ` <header
 		class="w-full flex justify-between text-[#e6e6e6] py-6 px-4 sm:px-6 bg-black"
 	>
-		<div class="flex items-center gap-4">
-			<img
-				class="w-12"
-				src="assets/images/logo.png"
-				alt="Heavy Duty Builders logo"
-			/>
-			<p class="hidden bp-heavy-duty sm:block text-2xl">HEAVY DUTY 2</p>
-		</div>
+		<a routerLink="/">
+			<div class="flex items-center gap-4">
+				<img
+					class="w-12"
+					src="assets/images/logo.png"
+					alt="Heavy Duty Builders logo"
+				/>
+				<p class="hidden bp-heavy-duty sm:block text-2xl">HEAVY DUTY</p>
+			</div>
+		</a>
 		<div class="flex items-center gap-6">
 			<a href="https://twitter.com/HeavyDutyBuild" target="_blank">
 				<img

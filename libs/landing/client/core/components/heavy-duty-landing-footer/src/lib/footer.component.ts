@@ -13,7 +13,9 @@ import { Component } from '@angular/core';
 					alt="Beware Heavy Duty Builders sign"
 				/>
 			</div>
-			<p class="bp-heavy-duty mt-2">🄯 2022 HeavyDuty</p>
+			<a routerLink="/terms-conditions">
+				<p class="bp-heavy-duty mt-2">🄯 2022 HeavyDuty</p>
+			</a>
 		</footer>
 	`,
 	styles: [],
