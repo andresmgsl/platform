@@ -7,7 +7,13 @@ import { Component, OnInit } from '@angular/core';
 			id="main-content"
 			class="bp-landing-font min-w-screen min-h-screen bg-[#121212] flex flex-col"
 		>
-			<router-outlet></router-outlet>
+			<heavy-duty-landing-navbar></heavy-duty-landing-navbar>
+
+			<section class="bp-min-h-content">
+				<router-outlet></router-outlet>
+			</section>
+
+			<heavy-duty-landing-footer></heavy-duty-landing-footer>
 		</div>
 	`,
 	styles: [],
