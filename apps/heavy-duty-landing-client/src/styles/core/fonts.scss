@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+@font-face {
+	font-family: 'Heaters';
+	src: local('../../assets/fonts/Heaters.otf'),
+		local('../../assets/fonts/Heaters.otf'),
+		url(../../assets/fonts/Heaters.otf) format('opentype');
+	font-display: swap;
+}
+
+.bp-graffiti-font {
+	font-family: 'Heaters' !important;
+}
+
+.bp-landing-font {
+	font-family: 'Montserrat', sans-serif;
+}

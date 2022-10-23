@@ -284,6 +284,10 @@
 			"@bulldozer-client/workspaces-data-access": [
 				"libs/bulldozer/client/workspaces/data-access/src/index.ts"
 			],
+			"@heavy-duty-landing/core-pages-home": [
+				"libs/landing/client/core/pages/home/src/index.ts"
+			],
+			"@heavy-duty-landing/shell": ["libs/landing/client/shell/src/index.ts"],
 			"@heavy-duty/blueprint-button": ["libs/blueprint/button/src/index.ts"],
 			"@heavy-duty/blueprint-card": ["libs/blueprint/card/src/index.ts"],
 			"@heavy-duty/blueprint-menu": ["libs/blueprint/menu/src/index.ts"],

@@ -5,12 +5,16 @@
 	"targets": {
 		"build": {
 			"executor": "@nrwl/webpack:webpack",
-			"outputs": ["{options.outputPath}"],
+			"outputs": [
+				"{options.outputPath}"
+			],
 			"options": {
 				"outputPath": "dist/apps/drill-cli",
 				"main": "apps/drill-cli/src/main.ts",
 				"tsConfig": "apps/drill-cli/tsconfig.app.json",
-				"assets": ["apps/drill-cli/src/assets"],
+				"assets": [
+					"apps/drill-cli/src/assets"
+				],
 				"target": "node",
 				"compiler": "tsc"
 			},
@@ -37,14 +41,20 @@
 		},
 		"lint": {
 			"executor": "@nrwl/linter:eslint",
-			"outputs": ["{options.outputFile}"],
+			"outputs": [
+				"{options.outputFile}"
+			],
 			"options": {
-				"lintFilePatterns": ["apps/drill-cli/**/*.ts"]
+				"lintFilePatterns": [
+					"apps/drill-cli/**/*.ts"
+				]
 			}
 		},
 		"test": {
 			"executor": "@nrwl/jest:jest",
-			"outputs": ["{workspaceRoot}/coverage/apps/drill-cli"],
+			"outputs": [
+				"{workspaceRoot}/coverage/apps/drill-cli"
+			],
 			"options": {
 				"jestConfig": "apps/drill-cli/jest.config.ts",
 				"passWithNoTests": true
