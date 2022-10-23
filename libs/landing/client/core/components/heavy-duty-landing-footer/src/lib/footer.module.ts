@@ -1,0 +1,10 @@
+import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
+import { HeavyDutyLandingFooterComponent } from './footer.component';
+
+@NgModule({
+	imports: [CommonModule],
+	declarations: [HeavyDutyLandingFooterComponent],
+	exports: [HeavyDutyLandingFooterComponent],
+})
+export class HeavyDutyLandingFooterModule {}
