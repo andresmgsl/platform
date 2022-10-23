@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
 	selector: 'heavy-duty-landing-footer',
@@ -21,8 +21,4 @@ import { Component, OnInit } from '@angular/core';
 	`,
 	styles: [],
 })
-export class HeavyDutyLandingFooterComponent implements OnInit {
-	constructor() {}
-
-	ngOnInit(): void {}
-}
+export class HeavyDutyLandingFooterComponent {}
