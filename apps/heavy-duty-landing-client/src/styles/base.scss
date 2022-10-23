@@ -6,10 +6,15 @@
 	background-attachment: fixed;
 	background-position-y: bottom;
 	background-size: cover;
+	background-position-x: center;
 }
 
 .bp-min-h-content {
 	min-height: calc(100vh - 116px - 111px);
+}
+
+.bp-h-content {
+	height: calc(100vh - 116px - 111px);
 }
 
 .bp-conditions-text > p {
@@ -28,5 +33,9 @@
 @media (min-width: 640px) {
 	.bp-min-h-content {
 		min-height: calc(100vh - 116px - 79px);
+	}
+
+	.bp-h-content {
+		height: calc(100vh - 116px - 79px);
 	}
 }
