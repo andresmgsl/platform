@@ -1,8 +1,8 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { HeavyDutyLandingFooterComponent } from '../../../shared/components/footer/footer.component';
-import { HeavyDutyLandingNavbarComponent } from '../../../shared/components/navbar/navbar.component';
+import { HeavyDutyLandingFooterComponent } from './footer.component';
+import { HeavyDutyLandingNavbarComponent } from './navbar.component';
 import { ShellComponent } from './shell/shell.component';
 
 @NgModule({

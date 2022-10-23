@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
 	selector: 'heavy-duty-landing-navbar',
@@ -14,7 +14,7 @@ import { Component, OnInit } from '@angular/core';
 				src="assets/images/logo.png"
 				alt="Heavy Duty Builders logo"
 			/>
-			<p class="hidden bp-heavy-duty sm:block text-2xl">HEAVY DUTY</p>
+			<p class="hidden bp-heavy-duty sm:block text-2xl">HEAVY DUTY 2</p>
 		</div>
 		<div class="flex items-center gap-6">
 			<a href="https://twitter.com/HeavyDutyBuild" target="_blank">
@@ -36,8 +36,4 @@ import { Component, OnInit } from '@angular/core';
 	</header>`,
 	styles: [],
 })
-export class HeavyDutyLandingNavbarComponent implements OnInit {
-	constructor() {}
-
-	ngOnInit(): void {}
-}
+export class HeavyDutyLandingNavbarComponent {}
