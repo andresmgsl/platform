@@ -1,5 +1,11 @@
 @import './core/fonts.scss';
 
 .bp-min-h-content {
-	min-height: calc(100vh - 116px - 64px);
+	min-height: calc(100vh - 116px - 111px);
+}
+
+@media (min-width: 640px) {
+	.bp-min-h-content {
+		min-height: calc(100vh - 116px - 79px);
+	}
 }
