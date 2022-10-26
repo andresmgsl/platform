@@ -9,7 +9,9 @@ import { Component, OnInit } from '@angular/core';
 		>
 			<heavy-duty-landing-navbar></heavy-duty-landing-navbar>
 
-			<router-outlet></router-outlet>
+			<div class="pt-28">
+				<router-outlet></router-outlet>
+			</div>
 
 			<heavy-duty-landing-footer></heavy-duty-landing-footer>
 		</div>
