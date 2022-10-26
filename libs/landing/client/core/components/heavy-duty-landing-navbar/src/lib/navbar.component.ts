@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
 	selector: 'heavy-duty-landing-navbar',
 	template: ` <header
-		class="fixed w-full flex justify-between text-[#e6e6e6] py-6 px-4 sm:px-6 bg-black"
+		class="fixed w-full flex justify-between text-[#e6e6e6] py-6 px-4 sm:px-6 bg-black z-20"
 	>
 		<a routerLink="/">
 			<div class="flex items-center gap-4">

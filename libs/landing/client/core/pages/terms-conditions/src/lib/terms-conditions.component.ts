@@ -9,17 +9,7 @@ import { Component, HostBinding } from '@angular/core';
 			Terms and Conditions
 		</h1>
 
-		<div class="w-full max-w-[650px] bp-formatted-text mb-10">
-			<p class="font-semibold text-xl">Terms and Conditions</p>
-
-			<p>Welcome to Solana Bounty!</p>
-
-			<p>
-				These terms and conditions outline the rules and regulations for the use
-				of HeavyDuty's Website, located at
-				https://university.heavyduty.builders/.
-			</p>
-
+		<div class="w-full max-w-[768px] bp-formatted-text mb-10">
 			<p>
 				By accessing this website we assume you accept these terms and
 				conditions. Do not continue to use Solana Bounty if you do not agree to
@@ -43,7 +33,7 @@ import { Component, HostBinding } from '@angular/core';
 				referring to same. This website is in beta
 			</p>
 
-			<p class="font-semibold text-xl">Cookies</p>
+			<h2 class="font-semibold text-2xl mb-4">Cookies</h2>
 
 			<p>
 				We employ the use of cookies. By accessing Solana Bounty, you agreed to
@@ -58,7 +48,7 @@ import { Component, HostBinding } from '@angular/core';
 				cookies.
 			</p>
 
-			<p class="font-semibold text-xl">License</p>
+			<h2 class="font-semibold text-2xl mb-4">License</h2>
 
 			<p>
 				Unless otherwise stated, HeavyDuty and/or its licensors own the
@@ -126,7 +116,7 @@ import { Component, HostBinding } from '@angular/core';
 				Comments in any and all forms, formats or media.
 			</p>
 
-			<p class="font-semibold text-xl">Hyperlinking to our Content</p>
+			<h2 class="font-semibold text-2xl mb-4">Hyperlinking to our Content</h2>
 
 			<p>
 				The following organizations may link to our Website without prior
@@ -163,13 +153,13 @@ import { Component, HostBinding } from '@angular/core';
 			</p>
 
 			<ul>
-				<li>commonly-known consumer and/or business information sources;</li>
-				<li>dot.com community sites;</li>
-				<li>associations or other groups representing charities;</li>
-				<li>online directory distributors;</li>
-				<li>internet portals;</li>
-				<li>accounting, law and consulting firms; and</li>
-				<li>educational institutions and trade associations.</li>
+				<li>Commonly-known consumer and/or business information sources;</li>
+				<li>Dot.com community sites;</li>
+				<li>Associations or other groups representing charities;</li>
+				<li>Online directory distributors;</li>
+				<li>Internet portals;</li>
+				<li>Accounting, law and consulting firms; and</li>
+				<li>Educational institutions and trade associations.</li>
 			</ul>
 
 			<p>
@@ -214,7 +204,7 @@ import { Component, HostBinding } from '@angular/core';
 				absent a trademark license agreement.
 			</p>
 
-			<p class="font-semibold text-xl">iFrames</p>
+			<h2 class="font-semibold text-2xl mb-4">iFrames</h2>
 
 			<p>
 				Without prior approval and written permission, you may not create frames
@@ -222,7 +212,7 @@ import { Component, HostBinding } from '@angular/core';
 				appearance of our Website.
 			</p>
 
-			<p class="font-semibold text-xl">Content Liability</p>
+			<h2 class="font-semibold text-2xl mb-4">Content Liability</h2>
 
 			<p>
 				We shall not be hold responsible for any content that appears on your
@@ -233,11 +223,11 @@ import { Component, HostBinding } from '@angular/core';
 				any third party rights.
 			</p>
 
-			<p class="font-semibold text-xl">Your Privacy</p>
+			<h2 class="font-semibold text-2xl mb-4">Your Privacy</h2>
 
 			<p>Please read Privacy Policy</p>
 
-			<p class="font-semibold text-xl">Reservation of Rights</p>
+			<h2 class="font-semibold text-2xl mb-4">Reservation of Rights</h2>
 
 			<p>
 				We reserve the right to request that you remove all links or any
@@ -248,7 +238,9 @@ import { Component, HostBinding } from '@angular/core';
 				these linking terms and conditions.
 			</p>
 
-			<p class="font-semibold text-xl">Removal of links from our website</p>
+			<h2 class="font-semibold text-2xl mb-4">
+				Removal of links from our website
+			</h2>
 
 			<p>
 				If you find any link on our Website that is offensive for any reason,
@@ -264,7 +256,7 @@ import { Component, HostBinding } from '@angular/core';
 				is kept up to date.
 			</p>
 
-			<p class="font-semibold text-xl">Disclaimer</p>
+			<h2 class="font-semibold text-2xl mb-4">Disclaimer</h2>
 
 			<p>
 				Please note that this is a beta version of the Solana Bounty Program and
@@ -299,11 +291,23 @@ import { Component, HostBinding } from '@angular/core';
 				the use of this website. Nothing in this disclaimer will:
 			</p>
 
-			limit or exclude our or your liability for death or personal injury; limit
-			or exclude our or your liability for fraud or fraudulent
-			misrepresentation; limit any of our or your liabilities in any way that is
-			not permitted under applicable law; or exclude any of our or your
-			liabilities that may not be excluded under applicable law.
+			<ul>
+				<li>
+					Limit or exclude our or your liability for death or personal injury;
+				</li>
+				<li>
+					Limit or exclude our or your liability for fraud or fraudulent
+					misrepresentation;
+				</li>
+				<li>
+					Limit any of our or your liabilities in any way that is not permitted
+					under applicable law; or
+				</li>
+				<li>
+					Exclude any of our or your liabilities that may not be excluded under
+					applicable law.
+				</li>
+			</ul>
 
 			<p>
 				Our Terms and Conditions were created with the help of the
