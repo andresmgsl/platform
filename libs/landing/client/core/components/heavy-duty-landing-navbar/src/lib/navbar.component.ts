@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
 	selector: 'heavy-duty-landing-navbar',
 	template: ` <header
-		class="w-full flex justify-between text-[#e6e6e6] py-6 px-4 sm:px-6 bg-black"
+		class="fixed w-full flex justify-between text-[#e6e6e6] py-6 px-4 sm:px-6 bg-black"
 	>
 		<a routerLink="/">
 			<div class="flex items-center gap-4">
@@ -29,6 +29,14 @@ import { Component } from '@angular/core';
 					class="w-7 sm:w-5"
 					src="https://xycjqai56g6atvzjnkoo6jbfcdbh33hhuuqkb5pxaau64tyfeh2q.arweave.net/vgSYAR3xvAnXKWqc7yQlEMJ97OelIKD19wAp7k8FIfU"
 					alt="discord icon"
+				/>
+			</a>
+
+			<a href="https://github.com/heavy-duty" target="_blank">
+				<img
+					class="w-7 sm:w-5"
+					src="https://arweave.net/e0pqfj-Q_yjL8zpM_sVywk4T2kUkcvBDBNec6gtqNlg"
+					alt="github icon"
 				/>
 			</a>
 		</div>

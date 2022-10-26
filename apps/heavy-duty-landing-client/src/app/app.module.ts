@@ -20,6 +20,8 @@ import { NxWelcomeComponent } from './nx-welcome.component';
 			{
 				initialNavigation: 'enabledNonBlocking',
 				paramsInheritanceStrategy: 'always',
+				scrollPositionRestoration: 'enabled',
+				scrollOffset: [0, 0],
 			}
 		),
 	],

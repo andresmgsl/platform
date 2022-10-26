@@ -9,7 +9,7 @@ import { Component, HostBinding } from '@angular/core';
 			Terms and Conditions
 		</h1>
 
-		<div class="w-full max-w-[650px] bp-conditions-text mb-10">
+		<div class="w-full max-w-[650px] bp-formatted-text mb-10">
 			<p class="font-semibold text-xl">Terms and Conditions</p>
 
 			<p>Welcome to Solana Bounty!</p>
@@ -331,5 +331,5 @@ import { Component, HostBinding } from '@angular/core';
 })
 export class TermsAndConditionsComponent {
 	@HostBinding('class') class =
-		'flex flex-col items-center bp-bg-street-under-one text-[#e6e6e6] px-4 py-5 sm:px-6 bp-h-content overflow-y-auto';
+		'flex flex-col items-center bp-bg-street-under-one text-[#e6e6e6] px-4 py-5 sm:px-6';
 }
