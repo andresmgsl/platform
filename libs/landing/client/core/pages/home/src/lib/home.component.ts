@@ -3,7 +3,9 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 @Component({
 	selector: 'heavy-duty-home',
 	template: `
-		<section class="flex justify-center w-full max-w-[1200px] mb-32">
+		<section
+			class="flex justify-center w-full max-w-[1200px] mb-32 md:mb-36 lg:mb-48 sm:mt-12"
+		>
 			<div class="mr-10 mt-24 hidden sm:block">
 				<img
 					src="assets/images/home/left-home-photo.png"
@@ -27,153 +29,114 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 			</div>
 		</section>
 
-		<section class="w-full max-w-[1200px] bp-formatted-text mb-24">
-			<h2
-				class="bp-graffiti-font text-[#FFA300] text-6xl mb-2 sm:mb-6 sm:text-9xl"
+		<section class="w-full max-w-[1200px] sm:flex sm:mt-24 mb-12 sm:mb-24">
+			<div
+				class="hidden sm:block md:-mt-[50px] lg:-mt-[100px] sm:mr-16 sm:shrink-0 sm:basis-[200px] md:basis-[250px] lg:basis-[350px] xl:basis-[450px]"
 			>
-				About us
+				<img src="assets/images/home/about_us.png" alt="About us" />
+			</div>
+
+			<div class="xl:mt-10">
+				<h2
+					class="bp-graffiti-font text-[#FFA300] text-6xl md:text-7xl lg:text-9xl"
+				>
+					About us
+				</h2>
+				<p class="md:text-xl mb-4">
+					We're a group of devs that believe in the power of OSS to facilitate
+					people's lives and don't care about chewing glass in the process. We
+					want to unite forces with more builders like us in the Solana
+					ecosystem, call it a DAO if you want, but we mean so much more.
+				</p>
+			</div>
+		</section>
+
+		<section
+			class="w-full max-w-[1200px] mb-12 lg:mb-8 sm:-mt-[80px] md:-mt-[120px] xl:-mt-[190px] "
+		>
+			<h2
+				class="bp-graffiti-font text-[#FFA300] sm:text-right mb-6 text-6xl md:text-7xl lg:text-9xl "
+			>
+				Bounty Program
 			</h2>
 
-			<div class="flex flex-col items-center sm:block">
-				<div class="mb-4 sm:mr-8 sm:float-left order-2 sm:order-1">
-					<img
-						class="mx-auto my-0 relative l-0 r-0"
-						src="assets/images/home/about_us.png"
-						alt="About us"
-					/>
-				</div>
-				<div class="sm:float-none order-1 sm:order-2">
-					<p>
-						We are a group of soldiers that are aiming to create a DAO of
-						Builders from Solana that builds tools for the community to
-						facilitate the whole ecosystem's growth.
-					</p>
+			<div>
+				<div
+					class="flex flex-col sm:flex-row sm:ml-10 lg:float-right px-8 sm:px-0"
+				>
+					<div class="bp-disc">
+						<a href="https://university.heavyduty.builders" target="_blank">
+							<img
+								class="sm:w-80 rotate-2"
+								src="assets/images/services/bounty_usa_1.png"
+								alt="Bounty program CalHacks x HackTX"
+							/>
+						</a>
+					</div>
 
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut suscipit
-						ipsum ut est luctus imperdiet. Integer dui tortor, pellentesque vel
-						purus vel, porttitor maximus lorem. Fusce elit dui, hendrerit eget
-						interdum mattis, venenatis mattis erat. Duis ex orci, tincidunt quis
-						bibendum nec, cursus id libero. Pellentesque habitant morbi
-						tristique senectus et netus et malesuada fames ac turpis egestas.
-						Mauris eget malesuada velit, id auctor sem. Morbi finibus augue
-						ultrices, placerat orci quis, sagittis velit.
+					<div class="bp-disc -mt-[70%] sm:mt-0 lg:-ml-48 xl:-ml-24">
+						<a
+							href="https://solana-colombia-hacker-house.heavyduty.builders"
+							target="_blank"
+						>
+							<img
+								class="sm:w-80 -rotate-6"
+								src="assets/images/services/bounty_bogota.png"
+								alt="Bounty program Bogotá"
+							/>
+						</a>
+					</div>
+
+					<div class="bp-disc -mt-[60%] sm:mt-0 lg:-ml-48 xl:-ml-24">
+						<a href="https://lisboa.heavyduty.builders" target="_blank">
+							<img
+								class="sm:w-80 rotate-3"
+								src="assets/images/services/bounty_lisbon.jpg"
+								alt="Bounty program Lisbon"
+							/>
+						</a>
+					</div>
+				</div>
+				<div class="lg:float-none relative top-10">
+					<p class="md:text-xl mb-4">
+						Basically a bunch of challenges to learn and earn in Solana. Imagine
+						earning reputation points and Proof-of-Work(s) as a beginner or pro
+						of web3.
+					</p>
+					<p class="md:text-xl">
+						You can find different levels of difficulty so people without a web3
+						background can improve their skills (and even deploy their first
+						program on-chain).
 					</p>
 				</div>
 			</div>
 		</section>
 
-		<section class="w-full max-w-[1200px] bp-formatted-text mb-24">
-			<h2
-				class="bp-graffiti-font text-[#FFA300] text-6xl mb-2 sm:mb-6 sm:text-9xl"
-			>
-				Our Services
-			</h2>
-
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut suscipit
-				ipsum ut est luctus imperdiet. Integer dui tortor, pellentesque vel
-				purus vel, porttitor maximus lorem.
-			</p>
-
-			<h3 class="bp-graffiti-font text-4xl sm:text-6xl">Bounty Program</h3>
-
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut suscipit
-				ipsum ut est luctus imperdiet. Integer dui tortor, pellentesque vel
-				purus vel, porttitor maximus lorem. Fusce elit dui, hendrerit eget
-				interdum mattis, venenatis mattis erat. Duis ex orci, tincidunt quis
-				bibendum nec, cursus id libero. Pellentesque habitant morbi tristique
-				senectus et netus et malesuada fames ac turpis egestas. Mauris eget
-				malesuada velit, id auctor sem. Morbi finibus augue ultrices, placerat
-				orci quis, sagittis velit.
-			</p>
-
-			<div class="flex flex-col mb-6 sm:flex-row sm:justify-center">
-				<div>
-					<a
-						href="https://solana-colombia-hacker-house.heavyduty.builders"
-						target="_blank"
-					>
-						<img
-							class="sm:w-80 -rotate-2"
-							src="assets/images/services/bounty_bogota.png"
-							alt="Bounty program Bogotá"
-						/>
-					</a>
-				</div>
-
-				<div class="bp-disc -mt-[40%] sm:mt-0 sm:-ml-24">
-					<a href="https://university.heavyduty.builders" target="_blank">
-						<img
-							class="sm:w-80 rotate-3"
-							src="assets/images/services/bounty_usa_1.png"
-							alt="Bounty program CalHacks x HackTX"
-						/>
-					</a>
-				</div>
-			</div>
-
-			<h3 class="bp-graffiti-font text-4xl sm:text-6xl">Bulldozer</h3>
-
-			<p>
-				Bulldozer is a low code platform that uses abstractions that are common
-				for developers to build Solana programs, it’s powered by Anchor
-				Framework. It gives developers the ability to manage their program’s
-				ecosystem through a UI, hiding all the gory details so they can focus on
-				the business logic.
-			</p>
-
-			<div class="mb-4 mr-8 sm:float-left">
-				<a href="https://bulldozer.heavyduty.builders" target="_blank">
-					<img
-						class="max-w-[800px] w-full"
-						src="assets/images/services/bulldozer.png"
-						alt="Bulldozer main page"
-					/>
-				</a>
-			</div>
-
-			<div class="sm:float-none">
-				<p>
-					It consists of an Anchor workspace and an Angular application, the
-					Anchor workspace holds the content of the Bulldozer program, it's used
-					as decentralized storage. The reason we store all the data on-chain is
-					that we want to unlock real-time collaboration while building systems.
+		<section class="sm:flex w-full max-w-[1200px] mt-12 mb-20">
+			<div class="mb-6 sm:mb-0 sm:mt-12 md:mt-24 lg:mt-10">
+				<h2
+					class="bp-graffiti-font text-[#FFA300] text-6xl md:text-7xl lg:text-9xl"
+				>
+					Contact Us
+				</h2>
+				<p class="md:text-xl mb-4">
+					We have a community of builders that is growing every day and
+					delivering amazing projects.
 				</p>
 
-				<p>
-					For more info, please visit the
-					<a href="https://github.com/heavy-duty/platform" target="_blank"
-						>official repository</a
-					>.
-				</p>
-			</div>
-		</section>
-
-		<section class="w-full max-w-[1200px] bp-formatted-text mb-24">
-			<h2
-				class="bp-graffiti-font text-[#FFA300] text-6xl mb-2 sm:mb-6 sm:text-9xl"
-			>
-				Contact us
-			</h2>
-
-			<div class="flex flex-col items-center sm:block">
-				<div class="float-left mb-4 mr-4 order-2 sm:order-1">
-					<img src="assets/images/contact/phone.png" alt="Contact old phone" />
-				</div>
-				<p class="float-none order-1 sm:order-2">
-					If you want to contact us, feel free to reach out at
+				<p class="md:text-xl">
+					Looking for web3 consultants? Send us a email here
 					<a href="mailto:team@heavyduty.builders">team@heavyduty.builders</a>
-					or join us on Discord and Twitter. We would be very happy to talk to
-					you.
 				</p>
-				<!-- <div class="mb-4 mr-4">
-					<img
-						src="assets/images/contact/contact_card.png"
-						alt="Heavy Duty Presentation Card"
-					/>
-				</div> -->
+			</div>
+			<div
+				class="sm:ml-6 lg:ml-12 sm:basis-[200px] md:basis-[300px] lg:basis-[400px] xl:ml-16 xl:basis-[500px] sm:shrink-0"
+			>
+				<img
+					class="w-full"
+					src="assets/images/contact/phone.png"
+					alt="Contact us phone"
+				/>
 			</div>
 		</section>
 	`,
