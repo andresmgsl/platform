@@ -1,18 +1,17 @@
 import { Component } from '@angular/core';
 
 @Component({
-	selector: 'heavy-duty-landing-navbar',
+	selector: 'landing-navbar',
 	template: ` <header
 		class="fixed w-full flex justify-between text-[#e6e6e6] py-6 px-4 sm:px-6 bg-black z-20"
 	>
 		<a routerLink="/">
 			<div class="flex items-center gap-4">
 				<img
-					class="w-12"
-					src="assets/images/logo.png"
-					alt="Heavy Duty Builders logo"
+					class="w-32"
+					src="assets/images/logo_graffiti.png"
+					alt="Heavy Duty Graffiti logo"
 				/>
-				<p class="hidden bp-heavy-duty sm:block text-2xl">HEAVY DUTY</p>
 			</div>
 		</a>
 		<div class="flex items-center gap-6">

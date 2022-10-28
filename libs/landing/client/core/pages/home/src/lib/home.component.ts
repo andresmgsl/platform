@@ -29,14 +29,16 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 			</div>
 		</section>
 
-		<section class="w-full max-w-[1200px] sm:flex sm:mt-24 mb-12 sm:mb-24">
+		<section
+			class="w-full max-w-[1200px] flex flex-col sm:flex-row sm:mt-24 mb-12 sm:mb-24"
+		>
 			<div
-				class="hidden sm:block md:-mt-[50px] lg:-mt-[100px] sm:mr-16 sm:shrink-0 sm:basis-[200px] md:basis-[250px] lg:basis-[350px] xl:basis-[450px]"
+				class="md:-mt-[50px] lg:-mt-[100px] sm:mr-16 sm:shrink-0 sm:basis-[300px] md:basis-[400px] lg:basis-[450px] xl:basis-[550px] order-2 sm:order-1"
 			>
-				<img src="assets/images/home/about_us.png" alt="About us" />
+				<img src="assets/images/logo.png" alt="About us" />
 			</div>
 
-			<div class="xl:mt-10">
+			<div class="xl:mt-10 order-1 sm:order-2">
 				<h2
 					class="bp-graffiti-font text-[#FFA300] text-6xl md:text-7xl lg:text-9xl"
 				>

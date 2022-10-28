@@ -1,8 +1,8 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { HeavyDutyLandingFooterModule } from '@heavy-duty-landing/footer';
-import { HeavyDutyLandingNavbarModule } from '@heavy-duty-landing/navbar';
+import { LandingFooterModule } from '@heavy-duty-landing/footer';
+import { LandingNavbarModule } from '@heavy-duty-landing/navbar';
 import { ShellComponent } from './shell.component';
 
 @NgModule({
@@ -34,8 +34,8 @@ import { ShellComponent } from './shell.component';
 				redirectTo: 'workspaces',
 			},
 		]),
-		HeavyDutyLandingFooterModule,
-		HeavyDutyLandingNavbarModule,
+		LandingFooterModule,
+		LandingNavbarModule,
 	],
 	declarations: [ShellComponent],
 })
