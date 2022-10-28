@@ -1,6 +1,6 @@
 /* eslint-disable */
 export default {
-	displayName: 'landing-client-core-components-heavy-duty-landing-navbar',
+	displayName: 'landing-client-core-components-landing-navbar',
 	preset: '../../../../../../jest.preset.js',
 	setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
 	globals: {
@@ -10,7 +10,7 @@ export default {
 		},
 	},
 	coverageDirectory:
-		'../../../../../../coverage/libs/landing/client/core/components/heavy-duty-landing-navbar',
+		'../../../../../../coverage/libs/landing/client/core/components/landing-navbar',
 	transform: {
 		'^.+\\.(ts|mjs|js|html)$': 'jest-preset-angular',
 	},

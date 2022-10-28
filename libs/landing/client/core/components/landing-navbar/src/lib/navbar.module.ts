@@ -8,4 +8,4 @@ import { HeavyDutyLandingNavbarComponent } from './navbar.component';
 	declarations: [HeavyDutyLandingNavbarComponent],
 	exports: [HeavyDutyLandingNavbarComponent],
 })
-export class HeavyDutyLandingNavbarModule {}
+export class LandingNavbarModule {}

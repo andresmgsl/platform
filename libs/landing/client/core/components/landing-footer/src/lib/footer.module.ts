@@ -8,4 +8,4 @@ import { HeavyDutyLandingFooterComponent } from './footer.component';
 	declarations: [HeavyDutyLandingFooterComponent],
 	exports: [HeavyDutyLandingFooterComponent],
 })
-export class HeavyDutyLandingFooterModule {}
+export class LandingFooterModule {}
