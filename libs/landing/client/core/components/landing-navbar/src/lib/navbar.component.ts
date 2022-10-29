@@ -1,16 +1,16 @@
 import { Component } from '@angular/core';
 
 @Component({
-	selector: 'landing-navbar',
+	selector: 'heavy-duty-landing-navbar',
 	template: ` <header
-		class="fixed w-full flex justify-between text-[#e6e6e6] py-6 px-4 sm:px-6 bg-black z-20"
+		class="fixed w-full flex justify-between text-[#e6e6e6] py-4 px-4 sm:px-6 bg-black z-20"
 	>
 		<a routerLink="/">
-			<div class="flex items-center gap-4">
+			<div class="flex items-center">
 				<img
-					class="w-32"
-					src="assets/images/logo_graffiti.png"
-					alt="Heavy Duty Graffiti logo"
+					class="w-12"
+					src="assets/images/logo_flat.png"
+					alt="Heavy Duty Flat Face logo"
 				/>
 			</div>
 		</a>

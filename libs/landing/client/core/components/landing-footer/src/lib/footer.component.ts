@@ -1,21 +1,25 @@
 import { Component } from '@angular/core';
 
 @Component({
-	selector: 'landing-footer',
+	selector: 'heavy-duty-landing-footer',
 	template: `
 		<footer
 			class="w-full flex flex-col sm:flex-row items-center sm:justify-between text-[#e6e6e6] px-4 sm:px-6 py-4 bg-black"
 		>
-			<div class="relative w-32">
+			<div class="relative w-36">
 				<img
 					class="w-full"
 					src="assets/images/beware.png"
 					alt="Beware Heavy Duty Builders sign"
 				/>
 			</div>
-			<a routerLink="/terms-conditions">
-				<p class="bp-heavy-duty mt-2">🄯 2022 HeavyDuty</p>
-			</a>
+			<div class="flex gap-2 items-center">
+				<a class="bp-heavy-duty text-sm" routerLink="/terms-conditions">
+					Terms & Conditions
+				</a>
+				<p>-</p>
+				<p class="bp-heavy-duty">🄯 2022 HeavyDuty</p>
+			</div>
 		</footer>
 	`,
 	styles: [],
