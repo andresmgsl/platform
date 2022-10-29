@@ -66,33 +66,33 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 				<div
 					class="flex flex-col sm:flex-row sm:ml-10 lg:float-right px-8 sm:px-0"
 				>
-					<div class="bp-disc">
+					<div class="bp-disc rotate-2">
 						<a href="https://university.heavyduty.builders" target="_blank">
 							<img
-								class="sm:w-80 rotate-2"
+								class="sm:w-80"
 								src="assets/images/services/bounty_usa_1.png"
 								alt="Bounty program CalHacks x HackTX"
 							/>
 						</a>
 					</div>
 
-					<div class="bp-disc -mt-[70%] sm:mt-0 lg:-ml-48 xl:-ml-24">
+					<div class="bp-disc -rotate-6 -mt-[70%] sm:mt-0 lg:-ml-48 xl:-ml-24">
 						<a
 							href="https://solana-colombia-hacker-house.heavyduty.builders"
 							target="_blank"
 						>
 							<img
-								class="sm:w-80 -rotate-6"
+								class="sm:w-80"
 								src="assets/images/services/bounty_bogota.png"
 								alt="Bounty program Bogotá"
 							/>
 						</a>
 					</div>
 
-					<div class="bp-disc -mt-[60%] sm:mt-0 lg:-ml-48 xl:-ml-24">
+					<div class="bp-disc rotate-3 -mt-[60%] sm:mt-0 lg:-ml-48 xl:-ml-24">
 						<a href="https://lisboa.heavyduty.builders" target="_blank">
 							<img
-								class="sm:w-80 rotate-3"
+								class="sm:w-80"
 								src="assets/images/services/bounty_lisbon.jpg"
 								alt="Bounty program Lisbon"
 							/>
