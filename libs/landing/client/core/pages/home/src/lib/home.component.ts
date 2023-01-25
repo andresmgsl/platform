@@ -29,7 +29,7 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 			</div>
 		</section>
 
-		<section class="w-full max-w-[1200px] mb-24 md:mb-32">
+		<section class="w-full max-w-[1200px] mb-24 md:mb-28">
 			<div
 				class="absolute overflow-hidden right-0 -mt-10 max-w-[1108px] left-0 mx-auto"
 			>
@@ -56,67 +56,8 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 			</div>
 		</section>
 
-		<!-- <section class="relative w-full max-w-[1200px] mb-12 lg:mb-8">
-			<h2
-				class="bp-graffiti-font text-[#FFA300] sm:text-right mb-6 text-6xl md:text-7xl lg:text-9xl"
-			>
-				Bounty Program
-			</h2>
-
-			<div>
-				<div
-					class="flex flex-col sm:flex-row sm:ml-10 lg:float-right px-8 sm:px-0"
-				>
-					<div class="bp-disc rotate-2">
-						<a href="https://university.heavyduty.builders" target="_blank">
-							<img
-								class="sm:w-80"
-								src="assets/images/services/bounty_usa_1.png"
-								alt="Bounty program CalHacks x HackTX"
-							/>
-						</a>
-					</div>
-
-					<div class="bp-disc -rotate-6 -mt-[70%] sm:mt-0 lg:-ml-48 xl:-ml-24">
-						<a
-							href="https://solana-colombia-hacker-house.heavyduty.builders"
-							target="_blank"
-						>
-							<img
-								class="sm:w-80"
-								src="assets/images/services/bounty_bogota.png"
-								alt="Bounty program Bogotá"
-							/>
-						</a>
-					</div>
-
-					<div class="bp-disc rotate-3 -mt-[60%] sm:mt-0 lg:-ml-48 xl:-ml-24">
-						<a href="https://lisboa.heavyduty.builders" target="_blank">
-							<img
-								class="sm:w-80"
-								src="assets/images/services/bounty_lisbon.jpg"
-								alt="Bounty program Lisbon"
-							/>
-						</a>
-					</div>
-				</div>
-				<div class="lg:float-none relative top-10">
-					<p class="md:text-xl mb-4">
-						Basically a bunch of challenges to learn and earn in Solana. Imagine
-						earning reputation points and Proof-of-Work(s) as a beginner or pro
-						of web3.
-					</p>
-					<p class="md:text-xl">
-						You can find different levels of difficulty so people without a web3
-						background can improve their skills (and even deploy their first
-						program on-chain).
-					</p>
-				</div>
-			</div>
-		</section> -->
-
 		<section
-			class="relative w-full flex flex-col items-center max-w-[1200px] mb-12 lg:mb-8"
+			class="relative w-full flex flex-col items-center max-w-[1200px] mb-24 md:mb-28"
 		>
 			<h2
 				class="bp-graffiti-font text-[#FFA300] mb-2 text-6xl md:text-7xl lg:text-8xl"
@@ -172,7 +113,7 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 			</div>
 		</section>
 
-		<section class="relative sm:flex w-full max-w-[1200px] mt-12 mb-20">
+		<!-- <section class="relative sm:flex w-full max-w-[1200px] mt-12 mb-20">
 			<div class="mb-6 sm:mb-0 sm:mt-12 md:mt-24 lg:mt-10">
 				<h2
 					class="bp-graffiti-font text-[#FFA300] text-6xl md:text-7xl lg:text-9xl"
@@ -197,6 +138,50 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 					src="assets/images/contact/phone.png"
 					alt="Contact us phone"
 				/>
+			</div>
+		</section> -->
+
+		<section
+			class="relative w-full flex flex-col items-center max-w-[1200px] mb-24 md:mb-28"
+		>
+			<h2
+				class="bp-graffiti-font text-[#FFA300] mb-10 text-6xl md:text-7xl lg:text-8xl"
+			>
+				Contact Us
+			</h2>
+
+			<div class="flex">
+				<div class="relative">
+					<div class="absolute">
+						<img
+							class="max-w-[610px]"
+							src="assets/images/home/bubble.png"
+							alt="Bubble contact - Heavy Duty"
+						/>
+					</div>
+					<div class="relative max-w-[500px]">
+						<p class="md:text-xl mb-4">
+							We have a community of builders that is growing every day and
+							delivering amazing projects.
+						</p>
+
+						<p class="md:text-xl">
+							Looking for web3 consultants? Send us a email here
+							<a href="mailto:team@heavyduty.builders"
+								>team@heavyduty.builders</a
+							>
+						</p>
+					</div>
+				</div>
+				<div
+					class="sm:ml-6 lg:ml-12 sm:basis-[200px] md:basis-[300px] lg:basis-[400px] xl:ml-16 xl:basis-[500px] sm:shrink-0"
+				>
+					<img
+						class="w-full"
+						src="assets/images/contact/phone.png"
+						alt="Contact us phone"
+					/>
+				</div>
 			</div>
 		</section>
 	`,
