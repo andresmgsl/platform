@@ -4,7 +4,7 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 	selector: 'heavy-duty-home',
 	template: `
 		<section
-			class="flex justify-center w-full max-w-[1200px] mb-32 md:mb-36 lg:mb-48 sm:mt-12"
+			class="flex justify-center w-full max-w-[1200px] mb-20 md:mb-26 lg:mb-36 mt-24"
 		>
 			<div class="mr-10 mt-24 hidden sm:block">
 				<img
@@ -29,22 +29,25 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 			</div>
 		</section>
 
-		<section
-			class="w-full max-w-[1200px] flex flex-col sm:flex-row sm:mt-24 mb-12 sm:mb-24"
-		>
+		<section class="w-full max-w-[1200px] mb-24 md:mb-32">
 			<div
-				class="md:-mt-[50px] lg:-mt-[100px] sm:mr-16 sm:shrink-0 sm:basis-[300px] md:basis-[400px] lg:basis-[450px] xl:basis-[550px] order-2 sm:order-1"
+				class="absolute overflow-hidden right-0 -mt-10 max-w-[1108px] left-0 mx-auto"
 			>
-				<img src="assets/images/logo.png" alt="About us" />
+				<img
+					src="assets/images/home/big_beard.png"
+					alt="A big Heavy Duty Builders beard "
+				/>
 			</div>
-
-			<div class="xl:mt-10 order-1 sm:order-2">
+			<div class="flex justify-center mb-12 relative">
+				<img class="w-[250px]" src="assets/images/logo.png" alt="About us" />
+			</div>
+			<div class="flex flex-col justify-center sm:flex-row relative">
 				<h2
-					class="bp-graffiti-font text-[#FFA300] text-6xl md:text-7xl lg:text-9xl"
+					class="bp-graffiti-font text-[#FFA300] mr-20 text-6xl md:text-7xl lg:text-8xl"
 				>
 					About us
 				</h2>
-				<p class="md:text-xl mb-4">
+				<p class="md:text-xl max-w-[600px]">
 					We're a group of devs that believe in the power of OSS to facilitate
 					people's lives and don't care about chewing glass in the process. We
 					want to unite forces with more builders like us in the Solana
@@ -53,11 +56,9 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 			</div>
 		</section>
 
-		<section
-			class="w-full max-w-[1200px] mb-12 lg:mb-8 sm:-mt-[80px] md:-mt-[120px] xl:-mt-[190px] "
-		>
+		<!-- <section class="relative w-full max-w-[1200px] mb-12 lg:mb-8">
 			<h2
-				class="bp-graffiti-font text-[#FFA300] sm:text-right mb-6 text-6xl md:text-7xl lg:text-9xl "
+				class="bp-graffiti-font text-[#FFA300] sm:text-right mb-6 text-6xl md:text-7xl lg:text-9xl"
 			>
 				Bounty Program
 			</h2>
@@ -112,9 +113,66 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 					</p>
 				</div>
 			</div>
+		</section> -->
+
+		<section
+			class="relative w-full flex flex-col items-center max-w-[1200px] mb-12 lg:mb-8"
+		>
+			<h2
+				class="bp-graffiti-font text-[#FFA300] mb-2 text-6xl md:text-7xl lg:text-8xl"
+			>
+				Bounty Program
+			</h2>
+			<div class="lg:float-none relative top-10 max-w-[700px] mb-32">
+				<p class="md:text-xl mb-4">
+					Basically a bunch of challenges to learn and earn in Solana. Imagine
+					earning reputation points and Proof-of-Work(s) as a beginner or pro of
+					web3.
+				</p>
+				<p class="md:text-xl">
+					You can find different levels of difficulty so people without a web3
+					background can improve their skills (and even deploy their first
+					program on-chain).
+				</p>
+			</div>
+
+			<div class="flex flex-col sm:flex-row px-8 sm:px-0">
+				<div class="bp-disc -rotate-12">
+					<a href="https://university.heavyduty.builders" target="_blank">
+						<img
+							class="sm:w-80"
+							src="assets/images/services/bounty_usa_1.png"
+							alt="Bounty program CalHacks x HackTX"
+						/>
+					</a>
+				</div>
+
+				<div class="bp-disc rotate-12 sm:mt-0">
+					<a
+						href="https://solana-colombia-hacker-house.heavyduty.builders"
+						target="_blank"
+					>
+						<img
+							class="sm:w-80"
+							src="assets/images/services/bounty_bogota.png"
+							alt="Bounty program Bogotá"
+						/>
+					</a>
+				</div>
+
+				<div class="bp-disc -rotate-12 sm:mt-0">
+					<a href="https://lisboa.heavyduty.builders" target="_blank">
+						<img
+							class="sm:w-80"
+							src="assets/images/services/bounty_lisbon.jpg"
+							alt="Bounty program Lisbon"
+						/>
+					</a>
+				</div>
+			</div>
 		</section>
 
-		<section class="sm:flex w-full max-w-[1200px] mt-12 mb-20">
+		<section class="relative sm:flex w-full max-w-[1200px] mt-12 mb-20">
 			<div class="mb-6 sm:mb-0 sm:mt-12 md:mt-24 lg:mt-10">
 				<h2
 					class="bp-graffiti-font text-[#FFA300] text-6xl md:text-7xl lg:text-9xl"
