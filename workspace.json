@@ -93,7 +93,6 @@
 		"drill-web-client": "apps/drill-web-client",
 		"drill-web-client-e2e": "apps/drill-web-client-e2e",
 		"heavy-duty-landing-client": "apps/heavy-duty-landing-client",
-		"heavy-duty-landing-client-e2e": "apps/heavy-duty-landing-client-e2e",
 		"heavy-duty-ui-progress-ping": "libs/heavy-duty/ui/progress-ping",
 		"heavy-duty-ui-progress-spinner": "libs/heavy-duty/ui/progress-spinner",
 		"landing-client-core-components-footer": "libs/landing/client/core/components/landing-footer",
