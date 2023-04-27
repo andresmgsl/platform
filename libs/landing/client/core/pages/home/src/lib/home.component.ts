@@ -30,14 +30,6 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 		</section>
 
 		<section class="w-full max-w-[1200px] mb-24 md:mb-28">
-			<div
-				class="absolute overflow-hidden right-0 -mt-10 max-w-[1108px] left-0 mx-auto"
-			>
-				<img
-					src="assets/images/home/big_beard.png"
-					alt="A big Heavy Duty Builders beard "
-				/>
-			</div>
 			<div class="flex justify-center mb-12 relative">
 				<img class="w-[250px]" src="assets/images/logo.png" alt="About us" />
 			</div>
@@ -47,7 +39,7 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 				>
 					About us
 				</h2>
-				<p class="md:text-xl max-w-[600px]">
+				<p class="md:text-xl sm:max-w-[350px] md:max-w-[400px] lg:max-w-[600px]">
 					We're a group of devs that believe in the power of OSS to facilitate
 					people's lives and don't care about chewing glass in the process. We
 					want to unite forces with more builders like us in the Solana
@@ -113,34 +105,6 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 			</div>
 		</section>
 
-		<!-- <section class="relative sm:flex w-full max-w-[1200px] mt-12 mb-20">
-			<div class="mb-6 sm:mb-0 sm:mt-12 md:mt-24 lg:mt-10">
-				<h2
-					class="bp-graffiti-font text-[#FFA300] text-6xl md:text-7xl lg:text-9xl"
-				>
-					Contact Us
-				</h2>
-				<p class="md:text-xl mb-4">
-					We have a community of builders that is growing every day and
-					delivering amazing projects.
-				</p>
-
-				<p class="md:text-xl">
-					Looking for web3 consultants? Send us a email here
-					<a href="mailto:team@heavyduty.builders">team@heavyduty.builders</a>
-				</p>
-			</div>
-			<div
-				class="sm:ml-6 lg:ml-12 sm:basis-[200px] md:basis-[300px] lg:basis-[400px] xl:ml-16 xl:basis-[500px] sm:shrink-0"
-			>
-				<img
-					class="w-full"
-					src="assets/images/contact/phone.png"
-					alt="Contact us phone"
-				/>
-			</div>
-		</section> -->
-
 		<section
 			class="relative w-full flex flex-col items-center max-w-[1200px] mb-24 md:mb-28"
 		>
@@ -150,16 +114,16 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 				Contact Us
 			</h2>
 
-			<div class="flex">
-				<div class="relative">
-					<div class="absolute">
+			<div class="w-full flex justify-center lg:justify-end lg:mr-36">
+				<div class="absolute hidden lg:block lg:mr-80 xl:mr-96">
+					<div>
 						<img
-							class="max-w-[610px]"
+							class="w-full max-w-[610px]"
 							src="assets/images/home/bubble.png"
 							alt="Bubble contact - Heavy Duty"
 						/>
 					</div>
-					<div class="relative max-w-[500px]">
+					<div class="absolute max-w-[300px] top-20 left-14">
 						<p class="md:text-xl mb-4">
 							We have a community of builders that is growing every day and
 							delivering amazing projects.
@@ -183,6 +147,20 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 					/>
 				</div>
 			</div>
+
+			<div class="lg:hidden mt-10 w-full max-w-[500px]">
+						<p class="md:text-xl mb-4">
+							We have a community of builders that is growing every day and
+							delivering amazing projects.
+						</p>
+
+						<p class="md:text-xl">
+							Looking for web3 consultants? Send us a email here
+							<a href="mailto:team@heavyduty.builders"
+								>team@heavyduty.builders</a
+							>
+						</p>
+					</div>
 		</section>
 	`,
 	styles: [],
