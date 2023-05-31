@@ -6,10 +6,10 @@ import { Component } from '@angular/core';
 		<footer
 			class="w-full flex flex-col sm:flex-row items-center sm:justify-between text-[#e6e6e6] px-4 sm:px-6 py-4 bg-black bg-opacity-60"
 		>
-			<div class="relative w-36">
+			<div class="relative w-48">
 				<img
 					class="w-full"
-					src="assets/images/beware.png"
+					src="assets/images/beware.webp"
 					alt="Beware Heavy Duty Builders sign"
 				/>
 			</div>
@@ -18,12 +18,12 @@ import { Component } from '@angular/core';
 					Terms & Conditions
 				</a>
 				<p>-</p>
-				<p class="bp-heavy-duty">🄯 2022 HeavyDuty</p>
+				<p class="bp-heavy-duty">🄯 2023 HeavyDuty</p>
 			</div>
 			<div class="relative w-36">
 				<img
 					class="w-full"
-					src="assets/images/home/main_graffiti.png"
+					src="assets/images/home/main_graffiti.webp"
 					alt="Heavy Duty Builders main graffiti"
 				/>
 			</div>
@@ -31,4 +31,4 @@ import { Component } from '@angular/core';
 	`,
 	styles: [],
 })
-export class HeavyDutyLandingFooterComponent {}
+export class HeavyDutyLandingFooterComponent { }

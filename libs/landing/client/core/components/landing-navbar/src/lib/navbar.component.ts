@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
 			<div class="flex items-center">
 				<img
 					class="w-12"
-					src="assets/images/logo_flat.png"
+					src="assets/images/logo_flat.webp"
 					alt="Heavy Duty Flat Face logo"
 				/>
 			</div>
@@ -23,7 +23,7 @@ import { Component } from '@angular/core';
 				/>
 			</a>
 
-			<a href="https://discord.gg/gNZxv57x" target="_blank">
+			<a href="https://discord.gg/sbjg5YvYfM" target="_blank">
 				<img
 					class="w-7 sm:w-5"
 					src="https://xycjqai56g6atvzjnkoo6jbfcdbh33hhuuqkb5pxaau64tyfeh2q.arweave.net/vgSYAR3xvAnXKWqc7yQlEMJ97OelIKD19wAp7k8FIfU"
@@ -42,4 +42,4 @@ import { Component } from '@angular/core';
 	</header>`,
 	styles: [],
 })
-export class HeavyDutyLandingNavbarComponent {}
+export class HeavyDutyLandingNavbarComponent { }

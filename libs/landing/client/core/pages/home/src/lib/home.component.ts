@@ -8,7 +8,7 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 		>
 			<div class="mr-10 mt-24 hidden sm:block">
 				<img
-					src="assets/images/home/left-home-photo.png"
+					src="assets/images/home/left-home-photo.webp"
 					alt="left torn street photo"
 				/>
 			</div>
@@ -16,14 +16,14 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 			<div>
 				<img
 					class="max-w-[490px] w-full mt-8 sm:mt-0"
-					src="assets/images/home/main_graffiti.png"
+					src="assets/images/home/main_graffiti.webp"
 					alt="Main Heavy Duty Graffiti Tag"
 				/>
 			</div>
 
 			<div class="ml-10 mt-24 hidden sm:block">
 				<img
-					src="assets/images/home/right-home-photo.png"
+					src="assets/images/home/right-home-photo.webp"
 					alt="left torn street photo"
 				/>
 			</div>
@@ -31,7 +31,7 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 
 		<section class="w-full max-w-[1200px] mb-24 md:mb-28">
 			<div class="flex justify-center mb-12 relative">
-				<img class="w-[250px]" src="assets/images/logo.png" alt="About us" />
+				<img class="w-[250px]" src="assets/images/logo.webp" alt="About us" />
 			</div>
 			<div class="flex flex-col justify-center sm:flex-row relative">
 				<h2
@@ -74,7 +74,7 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 					<a href="https://university.heavyduty.builders" target="_blank">
 						<img
 							class="sm:w-80"
-							src="assets/images/services/bounty_usa_1.png"
+							src="assets/images/services/bounty_usa_1.webp"
 							alt="Bounty program CalHacks x HackTX"
 						/>
 					</a>
@@ -87,7 +87,7 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 					>
 						<img
 							class="sm:w-80"
-							src="assets/images/services/bounty_bogota.png"
+							src="assets/images/services/bounty_bogota.webp"
 							alt="Bounty program Bogotá"
 						/>
 					</a>
@@ -97,7 +97,7 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 					<a href="https://lisboa.heavyduty.builders" target="_blank">
 						<img
 							class="sm:w-80"
-							src="assets/images/services/bounty_lisbon.jpg"
+							src="assets/images/services/bounty_lisbon.webp"
 							alt="Bounty program Lisbon"
 						/>
 					</a>
@@ -142,7 +142,7 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 				>
 					<img
 						class="w-full"
-						src="assets/images/contact/phone.png"
+						src="assets/images/contact/phone.webp"
 						alt="Contact us phone"
 					/>
 				</div>

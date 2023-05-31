@@ -6,7 +6,7 @@ import { Component, HostBinding } from '@angular/core';
 		<section class="flex justify-center w-full max-w-[1024px] mb-24">
 			<div class="mr-10 mt-24 hidden sm:block">
 				<img
-					src="assets/images/home/left-home-photo.png"
+					src="assets/images/home/left-home-photo.webp"
 					alt="left torn street photo"
 				/>
 			</div>
@@ -14,14 +14,14 @@ import { Component, HostBinding } from '@angular/core';
 			<div>
 				<img
 					class="max-w-[490px] w-full"
-					src="assets/images/home/main_graffiti.png"
+					src="assets/images/home/main_graffiti.webp"
 					alt="Main Heavy Duty Graffiti Tag"
 				/>
 			</div>
 
 			<div class="ml-10 mt-24 hidden sm:block">
 				<img
-					src="assets/images/home/right-home-photo.png"
+					src="assets/images/home/right-home-photo.webp"
 					alt="left torn street photo"
 				/>
 			</div>

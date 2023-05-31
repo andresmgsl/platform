@@ -12,7 +12,7 @@ import { Component, HostBinding } from '@angular/core';
 		<div class="w-full max-w-[768px] bp-formatted-text mb-10">
 			<p>
 				By accessing this website we assume you accept these terms and
-				conditions. Do not continue to use Solana Bounty if you do not agree to
+				conditions. Do not continue to use Heavy Duty Builders Bounty if you do not agree to
 				take all of the terms and conditions stated on this page.
 			</p>
 
@@ -36,7 +36,7 @@ import { Component, HostBinding } from '@angular/core';
 			<h2 class="font-semibold text-2xl mb-4">Cookies</h2>
 
 			<p>
-				We employ the use of cookies. By accessing Solana Bounty, you agreed to
+				We employ the use of cookies. By accessing Heavy Duty Builders Bounty, you agreed to
 				use cookies in agreement with the HeavyDuty's Privacy Policy.
 			</p>
 
@@ -52,19 +52,19 @@ import { Component, HostBinding } from '@angular/core';
 
 			<p>
 				Unless otherwise stated, HeavyDuty and/or its licensors own the
-				intellectual property rights for all material on Solana Bounty. All
+				intellectual property rights for all material on Heavy Duty Builders Bounty. All
 				intellectual property rights are reserved. You may access this from
-				Solana Bounty for your own personal use subjected to restrictions set in
+				Heavy Duty Builders Bounty for your own personal use subjected to restrictions set in
 				these terms and conditions.
 			</p>
 
 			<p>You must not:</p>
 
 			<ul>
-				<li>Republish material from Solana Bounty</li>
-				<li>Sell, rent or sub-license material from Solana</li>
-				<li>Bounty Reproduce, duplicate or copy material from Solana Bounty</li>
-				<li>Redistribute content from Solana Bounty</li>
+				<li>Republish material from Heavy Duty Builders Bounty</li>
+				<li>Sell, rent or sub-license material from Heavy Duty Builders</li>
+				<li>Bounty Reproduce, duplicate or copy material from Heavy Duty Builders Bounty</li>
+				<li>Redistribute content from Heavy Duty Builders Bounty</li>
 			</ul>
 
 			<p>This Agreement shall begin on the date hereof.</p>
@@ -259,7 +259,7 @@ import { Component, HostBinding } from '@angular/core';
 			<h2 class="font-semibold text-2xl mb-4">Disclaimer</h2>
 
 			<p>
-				Please note that this is a beta version of the Solana Bounty Program and
+				Please note that this is a beta version of the Heavy Duty Builders Bounty Program and
 				Heavy Duty platform which is still undergoing final testing before its
 				official release. The platform, its software and all content found on it
 				are provided on an “as is” and “as available” basis. HeavyDuty does not
