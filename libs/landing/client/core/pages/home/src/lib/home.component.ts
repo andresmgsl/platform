@@ -10,6 +10,8 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 				<img
 					src="assets/images/home/left-home-photo.webp"
 					alt="left torn street photo"
+					width="224"
+          height="377"
 				/>
 			</div>
 
@@ -18,6 +20,9 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 					class="max-w-[490px] w-full mt-8 sm:mt-0"
 					src="assets/images/home/main_graffiti.webp"
 					alt="Main Heavy Duty Graffiti Tag"
+					alt="Heavy Duty Flat Face logo"
+					width="490"
+          height="490"
 				/>
 			</div>
 
@@ -25,6 +30,8 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 				<img
 					src="assets/images/home/right-home-photo.webp"
 					alt="left torn street photo"
+					width="234"
+          height="399"
 				/>
 			</div>
 		</section>
@@ -76,6 +83,8 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 							class="sm:w-80"
 							src="assets/images/services/bounty_usa_1.webp"
 							alt="Bounty program CalHacks x HackTX"
+							width="320"
+          		height="320"
 						/>
 					</a>
 				</div>
@@ -89,6 +98,8 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 							class="sm:w-80"
 							src="assets/images/services/bounty_bogota.webp"
 							alt="Bounty program Bogotá"
+							width="320"
+          		height="320"
 						/>
 					</a>
 				</div>
@@ -99,6 +110,8 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 							class="sm:w-80"
 							src="assets/images/services/bounty_lisbon.webp"
 							alt="Bounty program Lisbon"
+							width="320"
+          		height="320"
 						/>
 					</a>
 				</div>
@@ -121,6 +134,8 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 							class="w-full max-w-[610px]"
 							src="assets/images/home/bubble.webp"
 							alt="Bubble contact - Heavy Duty"
+							width="610"
+          		height="425"
 						/>
 					</div>
 					<div class="absolute max-w-[300px] top-20 left-14">
@@ -144,6 +159,8 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 						class="w-full"
 						src="assets/images/contact/phone.webp"
 						alt="Contact us phone"
+						width="500"
+          	height="701"
 					/>
 				</div>
 			</div>

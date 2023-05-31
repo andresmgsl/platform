@@ -11,6 +11,8 @@ import { Component } from '@angular/core';
 					class="w-12"
 					src="assets/images/logo_flat.webp"
 					alt="Heavy Duty Flat Face logo"
+					width="48"
+          height="70"
 				/>
 			</div>
 		</a>

@@ -11,6 +11,8 @@ import { Component } from '@angular/core';
 					class="w-full"
 					src="assets/images/beware.webp"
 					alt="Beware Heavy Duty Builders sign"
+					width="192"
+          height="89"
 				/>
 			</div>
 			<div class="flex gap-2 items-center">
@@ -25,6 +27,8 @@ import { Component } from '@angular/core';
 					class="w-full"
 					src="assets/images/home/main_graffiti.webp"
 					alt="Heavy Duty Builders main graffiti"
+					width="144"
+          height="144"
 				/>
 			</div>
 		</footer>
