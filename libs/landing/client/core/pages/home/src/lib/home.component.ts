@@ -11,7 +11,7 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 					src="assets/images/home/left-home-photo.webp"
 					alt="left torn street photo"
 					width="224"
-          height="377"
+					height="377"
 				/>
 			</div>
 
@@ -22,7 +22,7 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 					alt="Main Heavy Duty Graffiti Tag"
 					alt="Heavy Duty Flat Face logo"
 					width="490"
-          height="490"
+					height="490"
 				/>
 			</div>
 
@@ -31,14 +31,20 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 					src="assets/images/home/right-home-photo.webp"
 					alt="left torn street photo"
 					width="234"
-          height="399"
+					height="399"
 				/>
 			</div>
 		</section>
 
 		<section class="w-full max-w-[1200px] mb-24 md:mb-28">
 			<div class="flex justify-center mb-12 relative">
-				<img class="w-[250px]" src="assets/images/logo.webp" alt="About us" />
+				<img
+					class="w-[250px]"
+					src="assets/images/logo.webp"
+					alt="About us"
+					width="250"
+					height="298"
+				/>
 			</div>
 			<div class="flex flex-col justify-center sm:flex-row relative">
 				<h2
@@ -46,7 +52,9 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 				>
 					About us
 				</h2>
-				<p class="md:text-xl sm:max-w-[350px] md:max-w-[400px] lg:max-w-[600px]">
+				<p
+					class="md:text-xl sm:max-w-[350px] md:max-w-[400px] lg:max-w-[600px]"
+				>
 					We're a group of devs that believe in the power of OSS to facilitate
 					people's lives and don't care about chewing glass in the process. We
 					want to unite forces with more builders like us in the Solana
@@ -84,7 +92,7 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 							src="assets/images/services/bounty_usa_1.webp"
 							alt="Bounty program CalHacks x HackTX"
 							width="320"
-          		height="320"
+							height="320"
 						/>
 					</a>
 				</div>
@@ -99,7 +107,7 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 							src="assets/images/services/bounty_bogota.webp"
 							alt="Bounty program Bogotá"
 							width="320"
-          		height="320"
+							height="320"
 						/>
 					</a>
 				</div>
@@ -111,7 +119,7 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 							src="assets/images/services/bounty_lisbon.webp"
 							alt="Bounty program Lisbon"
 							width="320"
-          		height="320"
+							height="320"
 						/>
 					</a>
 				</div>
@@ -135,7 +143,7 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 							src="assets/images/home/bubble.webp"
 							alt="Bubble contact - Heavy Duty"
 							width="610"
-          		height="425"
+							height="425"
 						/>
 					</div>
 					<div class="absolute max-w-[300px] top-20 left-14">
@@ -160,24 +168,22 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 						src="assets/images/contact/phone.webp"
 						alt="Contact us phone"
 						width="500"
-          	height="701"
+						height="701"
 					/>
 				</div>
 			</div>
 
 			<div class="lg:hidden mt-10 w-full max-w-[500px]">
-						<p class="md:text-xl mb-4">
-							We have a community of builders that is growing every day and
-							delivering amazing projects.
-						</p>
+				<p class="md:text-xl mb-4">
+					We have a community of builders that is growing every day and
+					delivering amazing projects.
+				</p>
 
-						<p class="md:text-xl">
-							Looking for web3 consultants? Send us a email here
-							<a href="mailto:team@heavyduty.builders"
-								>team@heavyduty.builders</a
-							>
-						</p>
-					</div>
+				<p class="md:text-xl">
+					Looking for web3 consultants? Send us a email here
+					<a href="mailto:team@heavyduty.builders">team@heavyduty.builders</a>
+				</p>
+			</div>
 		</section>
 	`,
 	styles: [],
