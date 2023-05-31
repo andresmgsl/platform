@@ -119,7 +119,7 @@ import { Component, HostBinding, OnInit } from '@angular/core';
 					<div>
 						<img
 							class="w-full max-w-[610px]"
-							src="assets/images/home/bubble.png"
+							src="assets/images/home/bubble.webp"
 							alt="Bubble contact - Heavy Duty"
 						/>
 					</div>
