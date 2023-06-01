@@ -22,6 +22,8 @@ import { Component } from '@angular/core';
 					class="w-7 sm:w-5"
 					src="https://arweave.net/9pVgL9J9m3KUjQLSjv5GsIpBPf64vY6HRp-INIyJEzM"
 					alt="twitter icon"
+					width="20"
+					height="20"
 				/>
 			</a>
 
@@ -30,6 +32,8 @@ import { Component } from '@angular/core';
 					class="w-7 sm:w-5"
 					src="https://xycjqai56g6atvzjnkoo6jbfcdbh33hhuuqkb5pxaau64tyfeh2q.arweave.net/vgSYAR3xvAnXKWqc7yQlEMJ97OelIKD19wAp7k8FIfU"
 					alt="discord icon"
+					width="20"
+					height="20"
 				/>
 			</a>
 
@@ -38,6 +42,8 @@ import { Component } from '@angular/core';
 					class="w-7 sm:w-5"
 					src="https://arweave.net/e0pqfj-Q_yjL8zpM_sVywk4T2kUkcvBDBNec6gtqNlg"
 					alt="github icon"
+					width="20"
+					height="20"
 				/>
 			</a>
 		</div>

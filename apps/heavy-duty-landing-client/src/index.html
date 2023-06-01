@@ -7,6 +7,22 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link type="image/x-icon" rel="icon" href="favicon.ico" />
 		<meta name="description" content="Heavy Duty Builders - Landing Page" />
+
+		<!-- Preload the LCP image with a high fetchpriority so it starts loading with the stylesheet. -->
+		<link
+			type="image/webp"
+			rel="preload"
+			fetchpriority="high"
+			as="image"
+			href="./assets/images/home/main_graffiti.webp"
+		/>
+		<link
+			type="image/webp"
+			rel="preload"
+			fetchpriority="high"
+			as="image"
+			href="./assets/images/logo.webp"
+		/>
 	</head>
 	<body>
 		<heavy-duty-root></heavy-duty-root>
